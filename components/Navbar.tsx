@@ -31,16 +31,16 @@ const Navbar = () => {
       </div>
 
       <ul  className={menu?" listmenu absolute transition-all  duration-75 ease-in-out right-10 top-14 z-10 border-2 bg-white text-black rounded-md hidden   max-md:flex flex-col items-center gap-6 p-4 w-[200px] h-[300px]":"flex items-center space-x-10   max-md:hidden"}>
-        <a onClick={()=>setMenu(false)} className="text-white font-[500] max-md:text-black" href="/#popularresidencies">
+        <a onClick={()=>setMenu(false)} className="text-white font-[500] max-md:text-black" href="#popularresidencies">
           <li>Residencies</li>
         </a>
-        <a onClick={()=>setMenu(false)} className="text-white font-[500] max-md:text-black" href="/#characterstics">
+        <a onClick={()=>setMenu(false)} className="text-white font-[500] max-md:text-black" href="#characterstics">
           <li>Our Value</li>
         </a>
-        <a onClick={()=>setMenu(false)} className="text-white font-[500] max-md:text-black" href="/#contact">
+        <a onClick={()=>setMenu(false)} className="text-white font-[500] max-md:text-black" href="#contact">
           <li>Contact us</li>
         </a>
-        <a onClick={()=>setMenu(false)} className="text-white font-[500] max-md:text-black" href="/#getstarted">
+        <a onClick={()=>setMenu(false)} className="text-white font-[500] max-md:text-black" href="#getstarted">
           <li>Get Started</li>
         </a>
         <a
