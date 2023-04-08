@@ -1,0 +1,53 @@
+.skeletonloading{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 500px;
+    grid-template-rows: repeat(2fr ,1fr);
+    gap:6px;
+    padding: 4px;
+    width: 100%;
+}
+
+.skeletonline {
+    height: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    animation: loading 1s ease-in-out infinite;
+  }
+  
+  .flexi{
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+  }
+  @keyframes loading {
+    0% {
+      opacity: 0.3;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.3;
+    }
+  }
+  @media screen and (max-width:800px) {
+    .skeletonloading{
+        height:300px;
+    }
+    
+  }
+
+  @media screen and (max-width:680px) {
+    .skeletonloading{
+        height:280px;
+    }
+    
+  }
+  @media screen and (max-width:480px) {
+    .skeletonloading{
+        height:240px;
+    }
+    
+  }
