@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { data } from "data";
 import SkeletonLoading from "Sekeleton";
 import Head from "next/head";
-const about = () => {
+const About = () => {
   const { query } = useRouter();
   const [moreimages, setMoreimage] = useState(false);
   const home = data.find((residence) => residence.id === query.id);
@@ -92,4 +92,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;

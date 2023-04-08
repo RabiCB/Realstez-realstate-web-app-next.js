@@ -31,18 +31,18 @@ const Navbar = () => {
       </div>
 
       <ul  className={menu?" listmenu absolute transition-all  duration-75 ease-in-out right-10 top-14 z-10 border-2 bg-white text-black rounded-md hidden   max-md:flex flex-col items-center gap-6 p-4 w-[200px] h-[300px]":"flex items-center space-x-10   max-md:hidden"}>
-        <a onClick={()=>setMenu(false)} className="text-white font-[500] max-md:text-black" href="#popularresidencies">
+        <Link href="/#popularresidencies" onClick={()=>setMenu(false)} className="text-white font-[500] max-md:text-black">
           <li>Residencies</li>
-        </a>
-        <a onClick={()=>setMenu(false)} className="text-white font-[500] max-md:text-black" href="#characterstics">
+        </Link>
+        <Link  href="/#characterstics" onClick={()=>setMenu(false)} className="text-white font-[500] max-md:text-black">
           <li>Our Value</li>
-        </a>
-        <a onClick={()=>setMenu(false)} className="text-white font-[500] max-md:text-black" href="#contact">
+        </Link>
+        <Link  href="/#contact "onClick={()=>setMenu(false)} className="text-white font-[500] max-md:text-black" >
           <li>Contact us</li>
-        </a>
-        <a onClick={()=>setMenu(false)} className="text-white font-[500] max-md:text-black" href="#getstarted">
+        </Link>
+        <Link href="/#getstarted" onClick={()=>setMenu(false)} className="text-white font-[500] max-md:text-black">
           <li>Get Started</li>
-        </a>
+        </Link>
         <a
           
           href="mailto:rollinrabin@gmail.com"
