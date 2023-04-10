@@ -21,7 +21,7 @@ const Navbar = () => {
 
     },[menu])
   return (
-    <div  ref={ref} className="bg-gradient-to-r from-[#605c5c] to-[#131110] h-16 flex justify-between relative px-10 items-center ">
+    <div  ref={ref} className="bg-gradient-to-r from-[#605c5c] to-[#131110] h-16 flex justify-between top-0 left-0 right-0 relative px-10 items-center ">
       <div className="relative h-16 flex items-center justify-center">
         <Link href="/"><h2 className="font-semibold text-white text-2xl max-md:text-xl">
           Relstez
